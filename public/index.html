@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Generator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Martian+Mono:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2><img width="400px" src="./logo.jpg" /></h2>
+        <h3>Less Text, More Insight</h3>
+    </header>
+
+
+    <div class="container">
+    <main>
+        <section id="user-input">
+            <h2>Generate News</h2>
+            
+            <form id="news-form" onsubmit="event.preventDefault(); generateNews();">
+                <label for="preference1">Select your 1st preference:</label>
+                <select id="preference1" name="preference1">
+                    <option value="sports">Sports</option>
+                    <option value="politics">Politics</option>
+                    <option value="business">Business</option>
+                    <option value="technology">Technology</option>
+                    <option value="health">Health</option>
+                </select>
+                <br>
+
+                <label for="preference2">Select your 2nd preference:</label>
+                <select id="preference2" name="preference2">
+                    <option value="sports">Sports</option>
+                    <option value="politics">Politics</option>
+                    <option value="business">Business</option>
+                    <option value="technology">Technology</option>
+                    <option value="health">Health</option>
+                </select>
+                <br>
+
+                <label for="preference3">Select your 3rd preference:</label>
+                <select id="preference3" name="preference3">
+                    <option value="sports">Sports</option>
+                    <option value="politics">Politics</option>
+                    <option value="business">Business</option>
+                    <option value="technology">Technology</option>
+                    <option value="health">Health</option>
+                </select>
+                <br>
+                <label for="location">Select a Location:</label>
+                <select id="location" name="location">
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                    <option value="australia">Australia</option>
+                    <option value="india">India</option>
+                </select>
+                
+                <button type="button" onclick="generateNews()">Generate</button>
+            </form>
+
+        </section>
+
+        <section id="news-result">
+            <h2>News Summary</h2>
+            <div id="news-summary">
+                <!-- News content will be displayed here -->
+            </div>
+        </section>
+    </main>
+    </div>
+
+    <footer>
+        <p>Entry for Peerlist X Replit GenAI Hackathon</p>
+    </footer>
+
+    <script src="app.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

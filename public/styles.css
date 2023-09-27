@@ -1,0 +1,139 @@
+body {
+    color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Martian Mono', monospace;
+}
+
+header {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+header h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+h2 img {
+    margin-top: -35px;
+}
+
+h2 {
+    color: #202020;
+    margin-top: 20px;
+}
+
+a {
+    color: #8c00b4;
+    transition: 0.3s all !important;
+}
+a:hover {
+    color: #111;
+}
+
+main {
+    padding: 20px;
+}
+
+label, select, button {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+select {
+    padding: 10px 10px;
+    background-color: rgba(0,0,0,0.1);
+    color: #1e1e1e;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    color: #ffffff;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+
+button:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
+
+#news-summary p {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 4px solid #4caf50;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.05);
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(2px);
+}
+
+footer p {
+    margin: 0;
+    color: #128616;
+    font-weight: 800;
+}
+
+
+main section {
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    padding: 25px 30px;
+    margin-bottom: 30px;
+}
+main section h2 {
+    margin: 0px 0px 20px;
+    font-size: 16px;
+}
+section#news-result {
+    width: 75%;
+}
+
+@media (min-width: 1200px) {
+    
+    .container {
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+    main {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 1000px) {
+    
+    .container {
+        max-width: 1000px;
+        margin: 0px auto;
+    }
+    main {
+        display: flex;
+        gap: 30px;
+    }
+}
