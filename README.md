@@ -1,4 +1,6 @@
 # Peer Reader
+![image](https://github.com/ayushmokal/peerreader/assets/95966154/20ba5b8a-eb30-47a6-b873-5a48dde2851e)
+
 Making News Consumption Efficient, Personalized, and Quick.
 It's the website that brings the news you care about right to your fingertips.
 
