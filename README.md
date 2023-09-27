@@ -1,6 +1,6 @@
 # Peer Reader
 Making News Consumption Efficient, Personalized, and Quick.
-It's the app that brings the news you care about right to your fingertips.
+It's the website that brings the news you care about right to your fingertips.
 
 ## Overview
 _____________________________________________________________________________________________________________________________________________
@@ -14,7 +14,7 @@ We envision a world where every individual can stay informed without being overw
 
 Our Solution
 
-Peer Reader is a state-of-the-art application that leverages advanced AI technology to generate news summaries based on user preferences and location. Whether you're interested in sports, politics, business, technology, or health, Peer Reader delivers the news you need in a concise format.
+Peer Reader is a  application that leverages advanced AI technology to generate news summaries based on user preferences and location. Whether you're interested in sports, politics, business, technology, or health, Peer Reader delivers the news you need in a concise format.
 
 ## Demo Video
 ___
